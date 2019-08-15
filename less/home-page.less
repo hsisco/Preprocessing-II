@@ -5,6 +5,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media @mobile{
+      flex-direction:column;
+      
+      .inverse-content{
+        flex-direction: column-reverse;
+      }
+    }
     
     .text-content {
       width: 48%;
