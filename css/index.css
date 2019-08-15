@@ -172,8 +172,9 @@ img {
 }
 /* Page */
 .header {
-  width: 100%;
   display: flex;
+  width: 100%;
+  border-bottom: 2px dashed silver;
 }
 .header h1 {
   align-self: flex-start;
